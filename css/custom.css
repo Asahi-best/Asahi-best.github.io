@@ -1,3 +1,11 @@
+svg.icon {
+   width: 1.6em; height: 1.6em;
+   /* width��height����ͼ���Ĭ�Ͽ��Ⱥ͸߶�*/
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
 /*������������Ч��*/
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
   left: -66px !important;
@@ -114,36 +122,5 @@
 
 
 
-/* �罻ͼ�� */
-@font-face {
-  font-family: "iconfont"; /* Project id 3409053 */
-  /* Color fonts */
-  src: 
-       url('iconfont.woff2?t=1652801273990') format('woff2'),
-       url('iconfont.woff?t=1652801273990') format('woff'),
-       url('iconfont.ttf?t=1652801273990') format('truetype');
-}
 
-.iconfont {
-  font-family: "iconfont" !important;
-  font-size: 1px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-.icon-github:before {
-  content: "\e677";
-}
-
-.icon-youxiang:before {
-  content: "\e908";
-}
-
-.icon-CN_bilibiliB:before {
-  content: "\e600";
-}
-
-.icon-wangyiyun:before {
-  content: "\e601";
-}
